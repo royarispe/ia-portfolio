@@ -9,5 +9,6 @@ Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas p�
 (`01-...`, `02-...`).
 
 - Plantilla: [plantilla.md](plantilla.md)
+- Plantilla-Test [test](test.md)
 - Práctico 1: [01-p1_edatitanic.md](01-p1_edatitanic.md)
 
