@@ -39,12 +39,12 @@ Los objetivos para este primer práctico consisten en todo lo que es explorar, p
 ## Desarrollo
 
 ???+ info "Ver desarrollo paso a paso"
-    - **Tarea 1 [x] - Setup en Colab**  
+    **Tarea 1 [x] - Setup en Colab**  
       para poder realizarlo de manera muy rápida, como mencioné en los objetivos mi idea es empaparme de los temas y aprender realmente por lo cual dentro de esta tarea antes de preparar el setup comencé por leer la [Documentación](https://colab.research.google.com/#scrollTo=vwnNlNIEwoZ8) para entender qué era esto de Google Colab. 
 
       A grandes rasgos es un Notebook, "un libro" digital con código dentro, la primera pregunta que me surgió es: ¿por qué lo escribimos y ejecutamos en esta plataforma en vez de en local en mi editor de texto? , la respuesta es sencilla, esos Notebooks primero que nada se guardan directamente en mi Google Drive, haciendo esto fácilmente compartible con compañeros y es como un Plug and Play, de muy fácil uso, pero el verdadero potencial de esto radica en que al ejecutar lo que estoy desarrollando corre en Google Cloud aprovechando las GPU'S y TPU'S de ellos, gracias a esto, aprovechando la potencia del hardware de Google puedo probar todo mucho más rápido que utilizando mi máquina.
 
-    - **Tarea 2 [x] - Cargar el dataset de Kaggle**  
+    **Tarea 2 [x] - Cargar el dataset de Kaggle**  
       Dataset, no es otra cosa que el conjunto de datos con el cual vamos a trabajar, en este caso, los mismos fueron extraídos del evento del Titanic, con estos, probaremos las posibilidades, una introducción práctica a la parte del análisis de datos, ya que esto es la base de todo lo referido a ML'S e IA'S.
       
       Volviendo a la tarea en particular, seguir el código es lo fácil, en lo que me detuve fue en investigar qué es Kaggle, básicamente explotamos el entorno de Google, ya que Kaggle es una plataforma y una comunidad donde aprender, practicar y completar problemas orientados al Data Science, ya que para entrenar modelos, predecir y más la base son los datos que existen a partir de los cuales analizar, buscar patrones y refinar un modelo que prediga el futuro posible. De esta plataforma tomamos los datasets públicos y disponibles para poder investigar y desarrollar nuestros modelos.
