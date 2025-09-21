@@ -10,8 +10,7 @@ date: 2025-08-12
 ## 📝 Contexto
 
 > **Nota:**  
-> Como primer acercamiento al trabajo con ML (rama de la IA), vamos a trabajar con el dataset del [Titanic](https://www.kaggle.com/competitions/titanic/data).  
-> Exploraremos este mundo en auge dentro de la informática.
+    En esta ocasión como primer acercamiento al trabajo con ML, rama de la IA vamos a trabajar con el dataset del [Titanic](https://www.kaggle.com/competitions/titanic/data), de esta forma a través de la práctica comenzamos a ponernos manos a la obra para explorar este mundo en auge dentro de la informática.
 
 ---
 
