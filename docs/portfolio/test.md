@@ -43,8 +43,6 @@ Explorar, preparar y utilizar herramientas clave para el aprendizaje durante el 
 
 ### Tarea 1 ✅ - Setup en Colab
 
-> [documentación](https://colab.research.google.com/#scrollTo=vwnNlNIEwoZ8)  
-
 Si bien el práctico es muy claro y se comparte el código correspondiente para poder realizarlo de manera muy rápida, como mencioné en los objetivos mi idea es empaparme de los temas y aprender realmente por lo cual dentro de esta tarea antes de preparar el setup comencé por leer la [Documentación](https://colab.research.google.com/#scrollTo=vwnNlNIEwoZ8) para entender qué era esto de Google Colab, a grandes rasgos es un Notebook, "un libro" digital con código dentro, la primera pregunta que me surgió es: ¿por qué lo escribimos y ejecutamos en esta plataforma en vez de en local en mi editor de texto? , la respuesta es sencilla, esos Notebooks primero que nada se almacenan directamente en mi Google Drive, haciendo esto fácilmente compartible con compañeros y es como un Plug and Play, de muy fácil uso, pero el verdadero potencial de esto radica en que al ejecutar lo que estoy desarrollando corre en Google Cloud aprovechando las GPU'S y TPU'S de ellos, gracias a esto, aprovechando la potencia del hardware de Google puedo probar todo mucho más rápido que utilizando mi máquina.
 
 ---
@@ -110,39 +108,62 @@ train['Survived'].value_counts(normalize=True)  # Proporción de supervivientes
 ```
 En este caso trabajamos con la columna "Survived" y obtenemos un output de la cantidad de supervivientes en formato de proporción por el atributo "normalize=True", básicamente del total que porcentaje sobrevivió y cuál no.
 
-
-```
-
-> Pandas permite manipular, filtrar y analizar datos.  
-> Matplotlib y Seaborn ayudan a visualizar los resultados.
-
----
-
 ### Tarea 4 ✅ - EDA visual con Seaborn/Matplotlib
 
-> **¿Qué es EDA?**  
-> El análisis exploratorio de datos (EDA) usa estadísticas y visualizaciones para descubrir patrones y preparar los datos para análisis más profundos.
+En esta tarea nos adentramos más en la parte visual, que también es muy importante para ayudarnos a entender y comunicar sobre resultados de los análisis.
 
-> Seaborn (sobre Matplotlib) facilita la creación de gráficos atractivos y el análisis visual.
+La primera pregunta que me surgió fue ¿Qué es EDA? Análisis exploratorio de datos, es un proceso de investigación en ciencia de datos que utiliza estadísticas y visualizaciones para explorar conjunto de datos, descubrir patrones e indentificar problemas y generar nuevas preguntas.
+
+En resumen, la idea es entender la estructura de los datos y preparar los mismos para todo tipo de análisis y trabajo con estos datos.
+
+En el caso de esta práctica, este EDA lo realizamos visual con la librería [Seaborn](https://seaborn.pydata.org/tutorial.html), esta funciona sobre Matplotlib que ya mencioné anteriormente e integrando pandas para el trabajo con los datos.
 
 ---
 
 ## 📸 Evidencias
 
-- Capturas de gráficos y outputs
-- Enlace al notebook: `p1_eda_titanic.ipynb`
-- Resultados obtenidos en la exploración
+## 📸 Evidencias
+
+[Enlace al notebook](https://colab.research.google.com/drive/1PjFidbLK2lcRPLRYjNs6gpr7ZHA-8Z_o?usp=sharing)
+
+### Salidas clave
+
+- Setup Inicial:
+![setup inicial](docs\assets\UT1\P1\1.png){ width="480" }
+
+- Instalación de Kaggle:
+![kaggle_setup](docs\assets\UT1\P1\2.png){ width="480" }
+
+- Vista previa del dataset:
+![Head del dataset](docs\assets\UT1\P1\3.png){ width="480" }
+
+- Resumen del dataset (`shape`, `head`, `info`):
+![Resumen del dataset](docs\assets\UT1\P1\4.png){ width="480" }
+
+- Estadísticas descriptivas (`describe`):
+![Estadísticas descriptivas](docs/assets/UT1/P1/5.png){ width="480" }
+
+- Valores nulos ordenados:
+![Valores nulos](docs/assets/UT1/P1/6.png){ width="480" }
+
+- Proporción de supervivientes:
+![Proporción de supervivientes](docs/assets/UT1/P1/7.png){ width="480" }
+
+- Código para visualización (subplot 2x2):
+![Código visualización](docs/assets/UT1/P1/8.png){ width="480" }
+
+- Salida de las gráficas (supervivencia por sexo, clase, edad y correlaciones):
+![Visualizaciones EDA](docs/assets/UT1/P1/8.1.png){ width="480" }
 
 ---
 
 ## 💡 Reflexión
 
-> **Reflexión personal:**  
-> - Qué aprendiste  
-> - Qué mejorarías  
-> - Próximos pasos  
->
-> *(Completa tu reflexión aquí)*
+Este primer práctico me permitió dar un paso real dentro del mundo del Machine Learning. No solo ejecuté código ya escrito, sino que me detuve a entender qué hacía cada línea, qué herramientas usaba y por qué eran necesarias. Descubrí la importancia de tener un entorno de trabajo organizado (Colab, Drive, Kaggle) y confirmé que las librerías como Pandas, Matplotlib y Seaborn son la base de cualquier análisis de datos.
+
+Creo que lo más valioso fue comprender que un EDA no es solo mostrar gráficos, sino aprender a leer los datos, detectar problemas y prepararlos para el siguiente nivel de análisis. Me doy cuenta de que todavía tengo que mejorar en automatizar mis flujos de trabajo y aprovechar más la documentación oficial en lugar de depender solo de ejemplos.
+
+Como próximos pasos, me gustaría buscar la vuelta para una mejor organización para poder darme mejor el espacio para aprender las cosas, al menos conseguir ese nivel de aprendizaje o conocimiento donde al enfrentar problemas reales poder tener estas herramientas como una posibilidad para aplicar y encontrar soluciones.
 
 ---
 
