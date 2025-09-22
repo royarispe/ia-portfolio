@@ -126,17 +126,32 @@ En el caso de esta práctica, este EDA lo realizamos visual con la librería [Se
 
 ### Salidas clave
 
-![setup inicial](../assets/UT1/P1/1.png){ width="480" }
-![kaggle_setup](../assets/UT1/P1/2.png){ width="480" }
-![Head del dataset](../assets/UT1/P1/3.png){ width="480" }
-![Resumen del dataset](../assets/UT1/P1/4.png){ width="480" }
-![Estadísticas descriptivas](../assets/UT1/P1/5.png){ width="480" }
-![Valores nulos](../assets/UT1/P1/6.png){ width="480" }
-![Proporción de supervivientes](../assets/UT1/P1/7.png){ width="480" }
-![Código visualización](../assets/UT1/P1/8.png){ width="480" }
-![Visualizaciones EDA](../assets/UT1/P1/8.1.png){ width="480" }
+- Setup Inicial:  
+![setup inicial](../assets/ut1_p1_1.png){ width="480" }
 
+- Instalación de Kaggle:  
+![kaggle_setup](../assets/ut1_p1_2.png){ width="480" }
 
+- Vista previa del dataset:  
+![Head del dataset](../assets/ut1_p1_3.png){ width="480" }
+
+- Resumen del dataset (`shape`, `head`, `info`):  
+![Resumen del dataset](../assets/ut1_p1_4.png){ width="480" }
+
+- Estadísticas descriptivas (`describe`):  
+![Estadísticas descriptivas](../assets/ut1_p1_5.png){ width="480" }
+
+- Valores nulos ordenados:  
+![Valores nulos](../assets/ut1_p1_6.png){ width="480" }
+
+- Proporción de supervivientes:  
+![Proporción de supervivientes](../assets/ut1_p1_7.png){ width="480" }
+
+- Código para visualización (subplot 2x2):  
+![Código visualización](../assets/ut1_p1_8.png){ width="480" }
+
+- Salida de las gráficas (supervivencia por sexo, clase, edad y correlaciones):  
+![Visualizaciones EDA](../assets/ut1_p1_8.1.png){ width="480" }
 
 ---
 
