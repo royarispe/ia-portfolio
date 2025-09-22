@@ -19,7 +19,7 @@ Como nuevo desafío elegí cursar **Inteligencia Artificial y Aprendizaje Autom�
 - **Herramientas**: Google Colab, Kaggle, GitHub, Docker.  
 - **Experiencia**:  
   Actualmente trabajo como Representante de Fraude en **Mercado Libre**, analizando cuentas con posibles fraudes y gestionando rehabilitaciones. Esta experiencia me ha permitido desarrollar habilidades en análisis de datos, toma de decisiones y atención al detalle, mientras continúo mi preparación para dar el salto al área técnica de IT.  
-
+  
   A nivel académico participé en proyectos variados: desarrollos full stack, gestión de bases de datos, infraestructura con VM y Docker, y primeras experiencias con Kubernetes.
 
 ## 📫 Contacto
