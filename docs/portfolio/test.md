@@ -126,15 +126,16 @@ En el caso de esta práctica, este EDA lo realizamos visual con la librería [Se
 
 ### Salidas clave
 
-![setup inicial](assets/UT1/P1/1.png){ width="480" }
-![kaggle_setup](assets/UT1/P1/2.png){ width="480" }
-![Head del dataset](assets/UT1/P1/3.png){ width="480" }
-![Resumen del dataset](assets/UT1/P1/4.png){ width="480" }
-![Estadísticas descriptivas](assets/UT1/P1/5.png){ width="480" }
-![Valores nulos](assets/UT1/P1/6.png){ width="480" }
-![Proporción de supervivientes](assets/UT1/P1/7.png){ width="480" }
-![Código visualización](assets/UT1/P1/8.png){ width="480" }
-![Visualizaciones EDA](assets/UT1/P1/8.1.png){ width="480" }
+![setup inicial](../assets/UT1/P1/1.png){ width="480" }
+![kaggle_setup](../assets/UT1/P1/2.png){ width="480" }
+![Head del dataset](../assets/UT1/P1/3.png){ width="480" }
+![Resumen del dataset](../assets/UT1/P1/4.png){ width="480" }
+![Estadísticas descriptivas](../assets/UT1/P1/5.png){ width="480" }
+![Valores nulos](../assets/UT1/P1/6.png){ width="480" }
+![Proporción de supervivientes](../assets/UT1/P1/7.png){ width="480" }
+![Código visualización](../assets/UT1/P1/8.png){ width="480" }
+![Visualizaciones EDA](../assets/UT1/P1/8.1.png){ width="480" }
+
 
 
 ---
