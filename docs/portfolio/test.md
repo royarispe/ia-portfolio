@@ -122,39 +122,36 @@ En el caso de esta práctica, este EDA lo realizamos visual con la librería [Se
 
 ## 📸 Evidencias
 
-## 📸 Evidencias
-
 [Enlace al notebook](https://colab.research.google.com/drive/1PjFidbLK2lcRPLRYjNs6gpr7ZHA-8Z_o?usp=sharing)
 
 ### Salidas clave
 
-- Setup Inicial:
-![setup inicial](/assets/UT1/P1/1.png){ width="480" }
+- Setup Inicial:  
+![setup inicial](../assets/UT1/P1/1.png){ width="480" }
 
-- Instalación de Kaggle:
-![kaggle_setup](/assets/UT1/P1/2.png){ width="480" }
+- Instalación de Kaggle:  
+![kaggle_setup](../assets/UT1/P1/2.png){ width="480" }
 
-- Vista previa del dataset:
-![Head del dataset](/assets/UT1/P1/3.png){ width="480" }
+- Vista previa del dataset:  
+![Head del dataset](../assets/UT1/P1/3.png){ width="480" }
 
-- Resumen del dataset (`shape`, `head`, `info`):
-![Resumen del dataset](/assets/UT1/P1/4.png){ width="480" }
+- Resumen del dataset (`shape`, `head`, `info`):  
+![Resumen del dataset](../assets/UT1/P1/4.png){ width="480" }
 
-- Estadísticas descriptivas (`describe`):
-![Estadísticas descriptivas](/assets/UT1/P1/5.png){ width="480" }
+- Estadísticas descriptivas (`describe`):  
+![Estadísticas descriptivas](../assets/UT1/P1/5.png){ width="480" }
 
-- Valores nulos ordenados:
-![Valores nulos](/assets/UT1/P1/6.png){ width="480" }
+- Valores nulos ordenados:  
+![Valores nulos](../assets/UT1/P1/6.png){ width="480" }
 
-- Proporción de supervivientes:
-![Proporción de supervivientes](/assets/UT1/P1/7.png){ width="480" }
+- Proporción de supervivientes:  
+![Proporción de supervivientes](../assets/UT1/P1/7.png){ width="480" }
 
-- Código para visualización (subplot 2x2):
-![Código visualización](/assets/UT1/P1/8.png){ width="480" }
+- Código para visualización (subplot 2x2):  
+![Código visualización](../assets/UT1/P1/8.png){ width="480" }
 
-- Salida de las gráficas (supervivencia por sexo, clase, edad y correlaciones):
-![Visualizaciones EDA](/assets/UT1/P1/8.1.png){ width="480" }
-
+- Salida de las gráficas (supervivencia por sexo, clase, edad y correlaciones):  
+![Visualizaciones EDA](../assets/UT1/P1/8.1.png){ width="480" }
 
 ---
 
