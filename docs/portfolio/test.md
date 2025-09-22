@@ -120,6 +120,28 @@ En el caso de esta práctica, este EDA lo realizamos visual con la librería [Se
 
 ---
 
+### Preguntas finales, conclusiones.
+
+**¿Qué variables parecen más relacionadas con `Survived`?**
+
+Las variables más relacionadas con qué persona sobrevive, según el análisis serían primero que nada la edad, donde a través de la gráfica de estas, podemos observar como se siguió la regla de “niños y ancianos” primero, dado que son en estos dos polos donde se ve un mayor numero de supervivientes en función de las cantidades totales de los mismos.
+
+Así mismo como segunda variable a resaltar es la del género, dado que podemos observar claramente que sobrevivieron mayormente mujeres, cabe mencionar que este numero tiene una implicancia en el entorno de edades que se encuentran entre los dos polos mencionados en el punto anterior, dado que luego de priorizar ancianos y niños continuan las mujeres.
+
+Como otro dato analizado y observado tenemos una clara implicancia de la clase socio-económica de los pasajeros, donde tras investigar dónde se encontraban los botes salvavidas en funcion de los costos de las distintas cabinas dado sentido en la cantidad de personas salvadas en función de dicha clase.
+
+Por último observamos la elevada correlación entre el precio del ticket y las personas salvas, esto explicado sabiendo que los niños y los ancianos son los que tuvieron un ticket más accesible por dicho margen de edades.
+
+**¿Dónde hay más valores faltantes? ¿Cómo los imputarías?**
+
+Donde vemos datos no utilizados para el ánalisis es en los que son de tipo String, como lo son: “sibsp”, “parch” y “embarked”, donde los mismos para ser imputados para el ánalisis requieren un procesamiento de datos previos, un pasaje a una escala númerica para que puedan participar del ánalisis matemático, expresado en la tabla de correlaciones.
+
+**¿Qué hipótesis probarías a continuación?**
+
+Como primera hipótesis que se podría desarrollar es explayar la mencionada anteriormente de la relación entre la ubicación de los pasajeros en el barco en contraste con la ubicación de los botes salvavidas.
+
+---
+
 ## 📸 Evidencias
 
 [Enlace al notebook](https://colab.research.google.com/drive/1PjFidbLK2lcRPLRYjNs6gpr7ZHA-8Z_o?usp=sharing)
@@ -136,18 +158,18 @@ En el caso de esta práctica, este EDA lo realizamos visual con la librería [Se
 ![Head del dataset](../assets/ut1_p1_3.png){ width="480" }
 
 - Resumen del dataset (`shape`, `head`, `info`):  
-![Resumen del dataset](../assets/ut1_p1_4.png{ width="480" }
+![Resumen del dataset](../assets/ut1_p1_4.png){ width="480" }
 
 - Estadísticas descriptivas (`describe`):  
 ![Estadísticas descriptivas](../assets/ut1_p1_5.png){ width="480" }
 
 - Valores nulos ordenados:  
-![Valores nulos](../assets/ut1_p1_6.png{ width="480" }
+![Valores nulos](../assets/ut1_p1_6.png){ width="480" }
 
 - Proporción de supervivientes:  
 ![Proporción de supervivientes](../assets/ut1_p1_7.png){ width="480" }
 
-- Código para visualización (subplot 2x2):  
+- Código para visualización:  
 ![Código visualización](../assets/ut1_p1_8.1.png){ width="480" }
 
 - Salida de las gráficas (supervivencia por sexo, clase, edad y correlaciones):  
