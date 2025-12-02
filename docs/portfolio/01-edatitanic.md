@@ -1,9 +1,9 @@
 ---
-title: "Práctica 1: EDA del Titanic en Google Colab"
+title: "Exploración del dataset Titanic: patrones de supervivencia y primeras hipótesis"
 date: 2025-08-12
 ---
 
-# Práctica 1: EDA del Titanic en Google Colab
+# Exploración del dataset Titanic: patrones de supervivencia y primeras hipótesis
 
 ---
 
