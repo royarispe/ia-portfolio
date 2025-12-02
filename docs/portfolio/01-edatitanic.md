@@ -1,6 +1,6 @@
 ---
 title: "Exploración del dataset Titanic: patrones de supervivencia y primeras hipótesis"
-date: 2025-08-12
+date: 
 ---
 
 # Exploración del dataset Titanic: patrones de supervivencia y primeras hipótesis
