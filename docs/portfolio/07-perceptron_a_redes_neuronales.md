@@ -9,7 +9,7 @@ date:
 
 ## 📝 Contexto
 
-En este séptimo práctico de la UT2 dimos un salto fundamental en la materia: pasamos de los modelos lineales clásicos a las bases del **Deep Learning**.
+En este séptimo práctico dimos un salto fundamental en la materia: pasamos de los modelos lineales clásicos a las bases del **Deep Learning**.
 
 El trabajo comenzó implementando desde cero un **Perceptrón simple** para entender su funcionamiento interno (pesos, bias, función de activación escalón). Sin embargo, el punto de inflexión fue chocar con su gran limitación histórica: la incapacidad de resolver problemas no linealmente separables, como la compuerta **XOR**.
 
