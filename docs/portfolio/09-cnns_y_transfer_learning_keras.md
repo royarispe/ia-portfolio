@@ -144,6 +144,8 @@ Estas visualizaciones permiten apreciar fácilmente la diferencia en rendimiento
 
 ## 📸 Evidencias
 
+[Enlace al notebook](https://colab.research.google.com/drive/1nbWu38-umslYivVlAS-d-wzwWCsPCi2E?usp=sharing)
+
 A continuación incluyo las visualizaciones más relevantes obtenidas durante el práctico.  
 Estas imágenes provienen directamente del notebook ejecutado en Google Colab y permiten apreciar claramente el comportamiento de cada modelo.
 
