@@ -661,8 +661,47 @@ La estructura JSON permite integrar el bot sin fricciones en otros servicios.
 
 Este desafío conecta perfectamente con lo que viene después: RAG completo, agentes, y tool use.
 
+---
+
 ### 📸 Evidencia
 
 Notebook del desarrollo completo (incluyendo el RAG minimalista y el chatbot):
 
 [📘 Enlace al Notebook de Google Colab](https://colab.research.google.com/drive/1UfOP7aYD4-RUWG0lLadMHoB_zUtAA5V0?usp=sharing)
+
+---
+
+## 🏁 Cierre General del Práctico
+
+Este práctico marcó un paso importante hacia la construcción de aplicaciones reales basadas en LLMs.  
+A lo largo del desarrollo integré:
+
+- Prompting claro y controlado  
+- Plantillas reutilizables con ChatPromptTemplate  
+- Composición modular mediante LCEL (`|`)  
+- Salidas estructuradas confiables (Pydantic + with_structured_output)  
+- Observabilidad con LangSmith (tokens, latencia, trazas)  
+- Recuperación semántica y primeros pasos en RAG  
+- Integración de WebSearch para ampliar el conocimiento disponible  
+- Construcción de un chatbot completo con grounding, estructura y fuentes  
+
+El práctico no solo reforzó los fundamentos del ecosistema **LangChain + OpenAI**, sino que también mostró cómo estos componentes se combinan para construir sistemas robustos, escalables y listos para producción.
+
+Este trabajo deja sentadas las bases para los próximos desafíos: **RAG completo, agentes inteligentes, tool-use y pipelines multi-LLM**.
+
+---
+
+## 📚 Referencias
+
+![Integración OpenAI en LangChain](https://docs.langchain.com)  
+![ChatPromptTemplate – Python API](https://api.python.langchain.com)  
+![LCEL y Runnables](https://api.python.langchain.com)  
+![Structured Output (JSON / Pydantic)](https://docs.langchain.com)  
+![LangSmith – Tracing y Observabilidad](https://docs.langchain.com)  
+![Text Splitters](https://docs.langchain.com)  
+![Retrieval & RAG](https://docs.langchain.com)  
+![FAISS VectorStore](https://docs.langchain.com)  
+![LangSmith Evaluation](https://docs.langchain.com)  
+![OpenAI – Parámetros de Text Generation](https://platform.openai.com)
+
+---
